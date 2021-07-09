@@ -45,6 +45,4 @@ fun main() {
         else -> ""
     }
     println("A "+ numberToText + " entre " + n1 + operation2 + n2 + " é de: " + total)
-
-
 }
