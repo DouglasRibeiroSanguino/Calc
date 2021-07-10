@@ -15,7 +15,7 @@ fun main() {
         2 -> "Subtração"
         3 -> "Multiplicação"
         4 -> "Divisão"
-        else -> System.exit(0)
+        else -> System.exit(0) //Se o usuário digitar um valor que não esteja dentro do menu o programa finaliza!
     }
     println("Hum, " + numberToText + ", ok...")
 
